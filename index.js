@@ -15,9 +15,7 @@ async function moveNPC() {
     await npc.walkNorth(400)
 }
 
-while (!moveNPC()) {
-    moveNPC()
-}
+moveNPC()
 
 // Create the inventory
 const inventory = newInventory()
